@@ -9,11 +9,13 @@ public class Hipoteca {
     private double capital;
     private double redito;
     private int tiempo;
+    private int tiempo2=30;
 
     public Hipoteca(double capital, double redito, int tiempo) {
         this.capital = capital;
         this.redito = redito;
         this.tiempo = tiempo;
+        System.out.println(tiempo2);
     }
     
     public double Cuota () {
